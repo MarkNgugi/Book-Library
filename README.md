@@ -1,24 +1,13 @@
-# README
+# Book Model
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+- **title**: String  
+  The title of the book.
 
-Things you may want to cover:
+- **author**: String  
+  The author of the book.
 
-* Ruby version
+- **genre**: String  
+  The genre of the book (e.g., fiction, non-fiction, fantasy, etc.).
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- **published_date**: Date  
+  The date when the book was published.
