@@ -1,0 +1,28 @@
+
+<%=form_with model: book do |form|%>
+
+<div>
+    <%=form.label :title%>
+    <%=form.text_field :title%>
+</div> <br>
+
+<div>
+    <%=form.label :author%>
+    <%=form.text_field :author%>
+</div> <br>
+
+<div>
+    <%=form.label :genre%>
+    <%=form.text_field :genre%>
+</div> <br>
+
+<div>
+    <%=form.label :published_date,"Published_date"%>
+    <%=form.date_select :published_date%>
+</div> <br>
+
+<div>
+    <%=form.submit%>
+</div>
+
+<%end%>
