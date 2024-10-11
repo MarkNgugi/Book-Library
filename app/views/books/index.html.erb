@@ -2,3 +2,12 @@
 <hr>
 
 <h4>Available Books</h4>
+
+
+<% @books.each do |book| %>
+<ul>
+    <p><%=link_to book.title, book%></a> </p>
+</ul>
+
+
+<%end%>
