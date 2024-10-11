@@ -11,5 +11,10 @@
     <p> <b>Published Date</b>: <%=@book.published_date%> </p>
 </ul>
 
-<%=link_to "Edit", edit_book_path%>
+<%=link_to "Edit", edit_book_path(@book)%>
+<%=link_to "Delete", book_path(@book), data: {
+    turbo_method: :delete,
+    turbo_confirm: "Are you sure"
+}
+%>
 
